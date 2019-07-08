@@ -1,0 +1,30 @@
+
+
+
+
+
+
+<div style="text-align:center">
+  
+  <h1> welcome to {{title}}!
+  </h1>
+  
+  <div class="result"> 
+
+    <!-- <strong *ngIf="display ===''">{{result}}</strong>
+    <strong *ngIf="!display == ''">{{display}}</strong>
+     -->
+     <strong *ngIf="display === ''">{{result}}</strong>
+      <strong *ngIf="display !== ''">{{display}}</strong>
+ 
+    </div>
+  
+  
+  <div class="numbers">
+  <div class="item" *ngFor="let num of numbers" (click)="cal(num.value)">
+    {{num.text}}
+  </div>
+  </div> 
+  </div>
+
+<router-outlet></router-outlet>

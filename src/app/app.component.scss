@@ -1,0 +1,50 @@
+
+
+.result{
+    height: 60px;
+    width: 400px;
+    padding-top: 4px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    margin: auto;
+    padding: 10px 14px 0px 10px;
+    box-sizing: border-box;
+    strong{
+        color: #3c4043; 
+        font-size: 20px; 
+        font-weight: 600px;
+        display: flex;
+        justify-content: flex-end;
+    
+    }
+    
+    }
+    
+    .numbers{
+    
+        width: 350px;
+      font-size: 30px;
+        margin: auto;
+        padding: 10px 14px 0px 10px;
+        border: 1px solid #d9d9d9;
+        border-radius: 8px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: rosybrown;
+    
+    
+    .item{
+        width: 60px;
+        height: 30px;
+        background: forestgreen;
+        color: #202124;
+        border: 1px solid #f4f1f3;
+        border-radius: 4px;
+        padding: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    }
